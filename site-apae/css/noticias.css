@@ -1,0 +1,26 @@
+/*Notícias*/
+.blog {
+    padding-top: 30px;
+    background-color: #fff;
+}
+.post {
+    width: 220px;
+    height: 140px;
+}
+.post-fotos{
+    padding: 50px 0;
+}
+.txt-post{
+    padding: 50px 0;
+}
+.txt-post h3::after {
+    content: " ";
+    height: 3px;
+    background-color: #3C5487;
+    width: 600px;
+    margin: 10px 0;
+    display: block;
+}
+.txt-post p {
+    color: #000
+}
