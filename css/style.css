@@ -1,15 +1,21 @@
 /*Estilos Gerais*/
+html{
+    font-size: 62.5%;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 14px;
     line-height: 20px;
+    font-size: 1.4rem;
 }
 img {
     display: block;
     max-width: 100%;
+}
+a {
+    font-size: 1.4rem;
 }
 .espaço {
     padding-bottom: 20px;
@@ -24,7 +30,7 @@ img {
 .introduçao h1 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 36px;
+    font-size: 3.6rem;
     line-height: 55px;
     font-weight: bold;
     color: #fff
@@ -33,11 +39,11 @@ img {
     color: #fff;
     text-align: center;
     font-style: italic;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 .introduçao blockquote p {
     padding: 5px;
-    font-size: 20px;
+    font-size: 2.0rem;
     margin: 20px auto;
 }
 .introduçao blockquote cite {
@@ -53,7 +59,7 @@ img {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 2.4rem;
     color:#3C5487;
 }
 .subtitulo::after {
@@ -87,16 +93,17 @@ img {
     display: inline-block;
     margin-right: 15px;
     margin-top: 25px;
+    transition: 0.3s ease-in-out;
 }
 .menu-principal ul li a {
     color: #F0D215;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
-.menu-principal ul li a:hover {
-    transition: ease-in-out 0.3s;
+.menu-principal ul li:hover {
+    transform: scale(1.2);
     color: #FFF;
 }
 .menu-principal ul li:not(:last-child) {
@@ -110,13 +117,14 @@ img {
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 1.4rem;
+    transition: ease-in-out 0.3s;
 }
 .menu-principal ul li a.btn-menu {
     color: #fff;
+    transition: 0.5s;
 }
 .btn-menu:hover {
-    transition: ease-in-out 0.3s;
     background-color:#fff;
 }
 .menu-principal ul li a.btn-menu:hover {
@@ -128,10 +136,7 @@ img {
 .center a i{
     transform: scale(2.0)
 }
-.menu-principal ul li:hover {
-    transition: ease-in-out 0.3s;
-    transform: scale(1.1);
-}    
+  
 /* Objetivo */
 .aluno-banner {
     position: relative;
@@ -150,7 +155,7 @@ img {
 }
 
 .txt-objetivo p {
-    font-size: 18px;
+    font-size: 1.8rem;
     max-width: 340px;
     color: #000;
 }
@@ -165,9 +170,9 @@ img {
     color: #3C5487;
     border: 2px solid #3C5487;
     outline: none;
+    transition: ease-in-out 0.3s;
 }
 .btn:hover {
-    transition: ease-in-out 0.3s;
     color: #FFF;
     background-color: #3C5487;
     border: 2px solid #3C5487;
@@ -191,7 +196,7 @@ img {
 }
 .depoimentos p {
     padding-top: 25px;
-    font-size: 20px;
+    font-size: 2.0rem;
     line-height: 25px;
 }
 .depoimentos h2::after {
@@ -222,6 +227,7 @@ img {
 }
 .cta p {
     font-style: italic;
+    font-size: 2.0rem;
     color: #fff;
     padding-bottom: 45px;
 }
@@ -233,14 +239,12 @@ img {
     font-weight: bold;
     text-decoration: none;
     color: #FFF;
-    border: 2px solid #DD2E44;
     outline: none;
+    transition: ease-in-out 0.3s;
 }
 .cta-btn:hover {
-    transition: ease-in-out 0.3s;
     color: #DD2E44;
     background-color: #FFF;
-    border: 2px solid #DD2E44;
     border-radius: 5px;
 }
 /*Notícias*/
@@ -273,7 +277,7 @@ img {
 .footer-dados h2 {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #F9E14B;
 }
 .footer-dados h2::after {
@@ -286,7 +290,7 @@ img {
 }
 .footer-dados li {
     line-height: 30px;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #fff;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -305,7 +309,6 @@ img {
     height: 58px;
 }
 .redes li a img:hover {
-    transition: ease-in-out 0,3s;
     border-color: #fff;
 }
 .footer i {
@@ -313,16 +316,16 @@ img {
 }
 .copy {
     background-color: #000;
-    color: #FF5420;
+    color: #f0d215;
     height: 100%;
     text-align: right;
 }
 .copy p {
-    font-size: 14px;
+    font-size: 1.4rem;
     text-decoration: none;
 }
 .copy i, a{
-    color: #FF5420;
+    color: #f0d215;
 }
 
 /* Javascript */

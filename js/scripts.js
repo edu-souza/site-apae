@@ -11,3 +11,16 @@ if(window.SimpleSlide) {
 }
 
 new SimpleAnime();
+
+function initHoverSocial(){
+  const ImgRedes = document.querySelectorAll('.redes li a img');
+  ImgRedes.forEach((item) => {
+    const start = item.getAttribute('src')
+    const hover = item.getAttribute('data-hover')
+    item.onmouseover = () => { item.src = hover; }
+    item.onmouseout = () => { item.src = start; } 
+  })  
+} 
+initHoverSocial();
+  
+

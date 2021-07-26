@@ -18,12 +18,12 @@
     color: #fff;
     font-style: italic;
     text-align: center;
-    font-size: 24px;
+    font-size: 2.4rem;
     line-height: 30px;
     padding-bottom: 30px;
 }
 .quote-doe cite {
-    font-size: 18px;
+    font-size: 1.8rem;
     text-transform: uppercase;
     font-style: normal;
     font-weight: bold;
@@ -54,7 +54,7 @@
 }
 .txt-doe1 p {
     color: #000;
-    font-size: 20px;
+    font-size: 2.0rem;
     max-width: 500px;
     padding-top: 30px;
     line-height: 30px;
@@ -74,7 +74,7 @@
 }
 .txt-doe2 p {
     color: #fff;
-    font-size: 20px;
+    font-size: 2.0rem;
     max-width: 500px;
     padding-top: 30px;
     line-height: 30px;
@@ -92,14 +92,14 @@
     background-color: #3C5487;
 }
 .formas p {
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 25px;
     color: #F0D215;
     text-align: center;
     padding-top: 15px;
 }
 .formas ul li {
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #F0D215;
@@ -135,11 +135,11 @@
     line-height: 25px;
 }
 .frase-voluntario p {
-    font-size: 22px;
+    font-size: 2.2rem;
     padding-bottom: 15px;
 }
 .autor {
-    font-size: 14px;
+    font-size: 1.4rem;
     text-transform: uppercase;
     font-style: normal;
     font-weight: bold;

@@ -121,7 +121,7 @@
     width: 100%;
 }
 .introduçao h1 {
-	font-size: 32px;
+	font-size: 3.2rem;
 	line-height: 40px;
 	text-align: center;
 }
@@ -225,13 +225,13 @@
     padding-bottom: 5px;
 }
 .quote-madre cite {
-	font-size: 14px;
+	font-size: 1.4rem;
 	padding-right: 5px;
 }
 .txt-voluntario h2 {
     text-align: center;
 	padding-top: 30px;
-	font-size: 24px;
+	font-size: 2.4rem;
 }
 .txt-voluntario h2::after {
     width: 300px;
@@ -281,7 +281,7 @@
 }
 .txt-doe1 p {
     color: #000;
-    font-size: 20px;
+    font-size: 2.0rem;
     max-width: 500px;
     padding-top: 20px;
     line-height: 30px;

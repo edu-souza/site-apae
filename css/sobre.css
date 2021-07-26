@@ -20,5 +20,10 @@
     border: 5px solid #3C5487;
     margin-bottom: 40px;
 }
-
-    
+.fotos img {
+    transform: rotate(-5deg);
+}
+.fotos img:nth-child(2n+1) {
+    transform: rotate(5deg);
+}
+  

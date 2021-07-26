@@ -18,12 +18,12 @@
     color: #fff;
     font-style: italic;
     text-align: center;
-    font-size: 24px;
+    font-size: 2.4rem;
     line-height: 30px;
     padding-bottom: 10px;
 }
 .quote-madre cite {
-    font-size: 18px;
+    font-size: 1.8rem;
     text-transform: uppercase;
     font-style: normal;
     font-weight: bold;
@@ -35,7 +35,7 @@
     padding-bottom: 40px;
 }
 .txt-voluntario p {
-    font-size: 18px;
+    font-size: 1.8rem;
     padding-top: 10px;
     line-height: 25px;
 }
@@ -69,7 +69,7 @@
 .txt-atuar p {
     padding-top: 30px;
     color: #fff;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 .contato-call {
     margin-top: 40px;
@@ -84,10 +84,6 @@
     background-color: #3C5487;
     padding: 60px 0;
 }
-.frase {
-    background-color: #5C8B4A;
-    padding: 60px 0;
-}
 .frase-voluntario {
     margin: 0 auto;
 }
@@ -96,16 +92,16 @@
     text-align: center;
 }
 .frase-voluntario p {
-    color: #fff;
-    font-size: 22px;
+    color: #000;
+    font-size: 2.2rem;
     padding-bottom: 15px;
 }
 .autor {
-    font-size: 14px;
+    font-size: 1.4rem;
     text-transform: uppercase;
     font-style: normal;
     font-weight: bold;
-    color: #fff;
+    color: #000;
     margin: 0 auto;
 }
 
